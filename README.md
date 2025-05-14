@@ -18,7 +18,8 @@ Digits from 1 to 9 represent letters on a classic phone keypad.
 
 Depending of the numbers you put on the test case will be give you the output that you want to see for example:
 
-`using System:
+```
+using System:
 public class OldPhonePad
 {
     public static void Main(string[] args)
@@ -29,7 +30,8 @@ public class OldPhonePad
         Console.WriteLine($"Input: {input1} => Output: {output1}\n");
     }
 }
-`
+```
+
 
 
 
