@@ -10,16 +10,15 @@ The 'OldPhonePadMethod' takes a string input and converts it to the correspondin
 The OldPhonePadMethod processes a string of key presses and converts it into a readable message according to the following rules:
 
 Digits from 1 to 9 represent letters on a classic phone keypad.
-- * acts as a backspace key.
-- 0 acts as a space key.
-- # represents the send key and ends the input.
+- "*" acts as a backspace key.
+- "0" acts as a space key.
+- "#" represents the send key and ends the input.
 
 # Results
 
 Depending of the numbers you put on the test case will be give you the output that you want to see for example:
 
-´´´
-using System:
+`using System:
 public class OldPhonePad
 {
     public static void Main(string[] args)
@@ -30,7 +29,7 @@ public class OldPhonePad
         Console.WriteLine($"Input: {input1} => Output: {output1}\n");
     }
 }
-´´´
+`
 
 It will print you "TESTING CODE" but you can change the message if you put another oldphonekeypad code
 
